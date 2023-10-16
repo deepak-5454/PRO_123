@@ -51,10 +51,9 @@ while True:
                 cv2.imwrite("in_memory_to_disk.png", image)
 
                 # this time take a screenshot directly to disk
-                # pyautogui.screenshot("straight_to_disk.png")
+                 pyautogui.screenshot("straight_to_disk.png")
 
-                # we can then load our screenshot from disk in OpenCV format
-                '''
+               
                 image = cv2.imread("straight_to_disk.png")
                 cv2.imshow("Screenshot", imutils.resize(image, width=600))
                 '''
